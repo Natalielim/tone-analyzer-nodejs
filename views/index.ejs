@@ -18,98 +18,19 @@
 <body>
   <!-- top level heading -->
   <header class="_demo--heading">
-    <div class="_demo--container">
-      <a class="wordmark" href="https://www.ibm.com/watson/developer/">
-        <span class="wordmark--left"><$= __('header-ibm') $></span>
-        <span class="wordmark--right"><$= __('header-wdc') $></span>
-      </a>
-    </div>
-  </header>
-  <div class="_demo--banner banner">
-    <div class="_demo--container">
-      <div class="banner--service-container">
-        <div class="banner--service-icon-container">
-          <img class="banner--service-icon" src="images/service-icon.svg" alt="Tone Analyzer API Icon">
-        </div>
-        <div class="banner--service-info">
-          <h1 class="banner--service-title base--h1">
-                        <img class="banner--service-icon_INLINE" src="images/service-icon.svg" alt="Tone Analyzer API Icon">
-                             <$=__('page-title-tone')$>
-                    </h1>
-          <div class="banner--service-description">
-            <$= __( 'header-description') $>
-          </div>
-          <div class="banner--gdpr-description">
-            <$= __("gdpr-description") $>
-          </div>
-        </div>
-      </div>
-      <div class="banner--service-resource-container">
-        <div class="banner--row">
-          <div class="banner--service-resource">
-            <span class="icon icon-link"></span>
-            <strong><$= __('header-resources') $>:</strong>
-          </div>
-        </div>
-        <div class="banner--row">
-          <div class="banner--service-links">
-            <li class="base--li banner--service-link-item">
-              <a href="https://cloud.ibm.com/docs/services/tone-analyzer/index.html" target="blank" class="base--a">
-                <$= __( 'header-documentation') $>
-              </a>
-            </li>
-            <li class="base--li banner--service-link-item">
-              <a href="https://cloud.ibm.com/apidocs/tone-analyzer" target="blank" class="base--a">
-                <$= __( 'header-apiref') $>
-              </a>
-            </li>
-            <li class="base--li banner--service-link-item">
-              <a href="https://github.com/watson-developer-cloud/tone-analyzer-nodejs" target="blank" class="base--a">
-                <$= __( 'header-fork') $>
-              </a>
-            </li>
-            <li class="base--li banner--service-link-item">
-              <a href="https://cloud.ibm.com/registration/?target=%2Fcatalog%2Fservices%2Ftone-analyzer%3FhideTours%3Dtrue%26cm_mmc%3D-_-Watson%2BCore_Watson%2BCore%2B-%2BPlatform-_-WW_WW-_-wdc-ref%26cm_mmc%3D-_-Watson%2BCore_Watson%2BCore%2B-%2BPlatform-_-WW_WW-_-wdc-ref%26cm_mmca1%3D000000OF%26cm_mmca2%3D10000409"
-                target="blank" class="base--button base--button_fill">
-                <$= __( 'header-bluemix') $>
-              </a>
-            </li>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <!-- demo body -->
   <div class="_demo--container">
     <article class="_content base--article">
       <div class="input">
-        <h2 class="base--h2"><$= __('header-sample-use-cases') $></h2>
+
         <p class="base--p input--description">
-          <$= __( 'input-description') $>
-            <a class="base--a" href="https://cloud.ibm.com/docs/services/tone-analyzer/index.html#about" target="new">
-              <$= __( 'header-learn-more') $>
-            </a>.</p>
-        <input role="radio" class="base--radio input--radio" type="radio" id="input-tweets" name="rb" value="tweets" checked="true">
-        <label class="base--inline-label input--radio-label" for="input-tweets"><$= __('radio-input-tweets') $></label>
-        <input role="radio" class="base--radio input--radio" type="radio" id="input-online-review" name="rb" value="review">
-        <label class="base--inline-label input--radio-label" for="input-online-review"><$= __('radio-input-review') $></label>
-        <input role="radio" class="base--radio input--radio" type="radio" id="input-email" name="rb" value="email">
-        <label class="base--inline-label input--radio-label" for="input-email"><$= __('radio-input-email') $></label>
-        <input role="radio" class="base--radio input--radio" type="radio" id="input-lang-fr" name="rb" value="review-fr">
-        <label class="base--inline-label input--radio-label" for="input-lang-fr"><$= __('radio-input-lang-fr') $></label>
-        <input role="radio" class="base--radio input--radio" type="radio" id="input-own-text" name="rb" value="own-text">
-        <label class="base--inline-label input--radio-label" for="input-own-text"><$= __('radio-input-own-text') $></label>
-        <p class="base--p input--description">
-          <$= __( 'input-description-customer-engagement') $>
             <a class="base--a" href="http://customer-engagement-demo.ng.bluemix.net" target="new">
-              <$= __( 'input-description-customer-engagement-endpoint') $>
             </a>.</p>
         <hr class="base--hr input--hr">
         <div class="panel">
           <textarea class="base--textarea input--textarea" rows="7"></textarea>
           <div class="input--choose own-text-language-selector-radio original-text--tooltip-container_hidden">
-            <b><$= __('label-choose-lang') $>: </b>
             <input role="radio" class="base--radio input--radio--lang" type="radio" id="input-own-text-en" name="rb-lang" value="en" checked="true">
             <label class="base--inline-label input--radio-label" for="input-own-text-en"><$= __('radio-lang-en') $></label>
             <input role="radio" class="base--radio input--radio--lang" type="radio" id="input-own-text-fr" name="rb-lang" value="fr">
@@ -132,16 +53,6 @@
       </div>
 
       <div class="output">
-        <h2 class="base--h2"><$= __('header-output') $></h2>
-        <p class="base--p output--document-description">
-          <$= __( 'output-description') $>
-        </p>
-        <p class="base--p output--document-description">
-          <$= __( 'output-description-interpret') $>
-            <a class="base--a" target="_blank" href="https://cloud.ibm.com/docs/services/tone-analyzer/using-tone.html#using-the-general-purpose-endpoint">
-              <$= __( 'output-description-understand-score') $>
-            </a>.</p>
-        <h3 class="base--h3 output--document-title"><$= __('header-document') $></h3>
 
         <div class="summary--row">
           <div class="summary--emotion">

@@ -10,5 +10,5 @@ RUN apk add --no-cache --virtual .build-deps make gcc g++ python && \
 
 COPY . .
 
-EXPOSE 3000
+EXPOSE 5000
 CMD ["npm", "start"]
