@@ -2,9 +2,6 @@
 <html lang="en">
 
 <head>
-  <title>
-    <$= __( 'page-title-tone') $>
-  </title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,17 +13,11 @@
 </head>
 
 <body>
-  <!-- top level heading -->
-  <header class="_demo--heading">
-
   <!-- demo body -->
   <div class="_demo--container">
-    <article class="_content base--article">
       <div class="input">
 
-        <p class="base--p input--description">
-            <a class="base--a" href="http://customer-engagement-demo.ng.bluemix.net" target="new">
-            </a>.</p>
+
         <hr class="base--hr input--hr">
         <div class="panel">
           <textarea class="base--textarea input--textarea" rows="7"></textarea>
@@ -61,24 +52,13 @@
             <div class="summary-emotion-graph bar-graph"></div>
           </div>
         </div>
-        <div class="summary-row">
-          <span class="icon-hyperlink summary-view-code-button">
-  					<img class="icon icon-code" src="images/icons/code.svg" />
-  					<button class="base--a icon-hyperlink--button_BLANK js-toggle-summary-json" href="">
-  						<span class="js-toggle-summary-json_show"><$= __('summary-view-json') $></span>
-          <span class="js-toggle-summary-json_hide"><$= __('summary-hide-json') $></span>
-          </button>
-          </span>
-        </div>
+
         <div class="summary-json js-summary-json">
           <pre class="base--pre json--pre language-javascript">
             <code class="base--code json--code language-javascript"></code>
           </pre>
         </div>
-        <h3 class="base--h3 output--sentence-title" style="padding-left: 0rem;"><$= __('header-sentence') $></h3>
-        <p class="base--p output--sentence-description">
-          <$= __( 'output-sentence-description') $>
-        </p>
+
         <div class="sentences">
           <div class="sentences--filters filters">
             <h3 class="base--h3" style="padding-left: 0rem;"><$= __('header-tones') $></h3>
@@ -131,57 +111,13 @@
                   </div>
                 </div>
               </div>
-              <!-- .tab-panels--tab-content -->
             </div>
-            <!-- .tab-panels -->
           </div>
-          <!-- .sentences--sentence-views -->
-
         </div>
 
-        <div class="summary-row">
-          <span class="icon-hyperlink sentence-summary-view-code-button">
-  					<img class="icon icon-code" src="images/icons/code.svg" />
-  					<button class="base--a icon-hyperlink--button_BLANK js-toggle-sentence-summary-json" href="">
-  						<span class="js-toggle-sentence-summary-json_show"><$= __('summary-view-json') $></span>
-          <span class="js-toggle-sentence-summary-json_hide"><$= __('summary-hide-json') $></span>
-          </button>
-          </span>
-        </div>
-
-        <div class="summary-json js-sentence-summary-json">
-          <pre class="base--pre json--pre language-javascript">
-            <code class="base--code json--code language-javascript"></code>
-          </pre>
-        </div>
-        <!-- .sentences -->
-        <div class="output--reset icon-hyperlink">
-          <span class="icon icon-reset"></span>
-          <button class="base--a output--reset-button icon-hyperlink--button icon-hyperlink--button_BLANK" href="" type="reset">
-            <$= __('button-reset') $>
-          </button>
-        </div>
         <div class="original-text--tooltip-container original-text--tooltip-container_hidden"></div>
       </div>
     </article>
-  </div>
-  <div class="_demo--banner bottom-banner ">
-
-    <div class="footer-banner">
-      <div class="_demo--container footer-container">
-        <div class="footer-title">
-          <$= __( 'footer-title') $>
-        </div>
-
-        <div class="footer-tagline">
-          <$= __( 'footer-tagline') $>
-        </div>
-
-        <a class="base--a bottom-links" href="https://cloud.ibm.com/apidocs/tone-analyzer" target="_blank"><$= __( 'header-apiref') $></a>
-        <a class="base--a bottom-links" href="https://cloud.ibm.com/docs/services/tone-analyzer/index.html#about" target="_blank"><$= __( 'header-documentation') $></a>
-        <a class="base--a bottom-links" href="https://github.com/watson-developer-cloud/tone-analyzer-nodejs" target="_blank"><$= __( 'header-fork') $></a>
-      </div>
-    </div>
   </div>
 
   <script type="text/html" id="emotionBarGraphTemplate">
