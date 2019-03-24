@@ -51,6 +51,12 @@
             <h5 class="base--h5 summary--header">Today, you are feeling</h5>
             <div class="document--warning"></div>
             <div class="summary-emotion-graph bar-graph"></div>
+
+            <h1><script type="text/html">
+              <% if ((item.score > 0) && (item.label == 'Sadness')) { %>
+                document.write("GET HELP!!");
+              <% } %>
+            </script></h1>
           </div>
         </div>
 
@@ -173,6 +179,7 @@
             </div>
           </div>
           <div class="checkmark">
+
             <% if (item.score > 0) { %>
               <div class="checkmark_circle_<%- item.label.replace(/\s+/g, '-') %>"></div>
               <div class="checkmark_stem"></div>
