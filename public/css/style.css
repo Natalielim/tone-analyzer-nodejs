@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body, .base--input, .base--STYLED input:not([type]), .base--color-input, .base--STYLED input[type="color"], .base--date-input, .base--STYLED input[type="date"], .base--datetime-local-input, .base--STYLED input[type="datetime-local"], .base--email-input, .base--STYLED input[type="email"], .base--file-input, .base--STYLED input[type="file"], .base--hidden-input, .base--STYLED input[type="hidden"], .base--month-input, .base--STYLED input[type="month"], .base--number-input, .base--STYLED input[type="number"], .base--password-input, .base--STYLED input[type="password"], .base--range-input, .base--STYLED input[type="range"], .base--search-input, .base--STYLED input[type="search"], .base--tel-input, .base--STYLED input[type="tel"], .base--text-input, .base--STYLED input[type="text"], .base--time-input, .base--STYLED input[type="time"], .base--url-input, .base--STYLED input[type="url"], .base--week-input, .base--STYLED input[type="week"], .base--select, .base--STYLED select, .base--textarea, .base--STYLED textarea {
-  font-family: "Helvetica Neue", Helvetica, "Open Sans", Arial, "Lucida Grande", "Roboto", sans-serif;
+  font-family: "HelveticaNeue-Light", Helvetica, "Open Sans", Arial, "Lucida Grande", "Roboto", sans-serif;
 }
 
 .base--code, .base--STYLED code, .base--pre, .base--STYLED pre, pre[class^="language-"], pre[class*=" language-"], .base--pre code, pre[class^="language-"] code, pre[class*=" language-"] code, .base--pre .base--code, .base--STYLED pre .base--code, pre[class^="language-"] .base--code, pre[class*=" language-"] .base--code {
@@ -498,7 +498,7 @@ body {
 .base--button, .base--STYLED button {
   padding: 0.5em 1em;
   color: #435D7E;
-  font-weight: bold;
+  /* font-weight: bold; */
   background-color: transparent;
   border: 2px solid #d74108;
   display: inline-block;
@@ -512,7 +512,7 @@ body {
 .base--button[type='submit'], .base--STYLED button[type='submit'] {
   padding: 0.5em 1em;
   color: white;
-  font-weight: bold;
+  /* font-weight: bold; */
   background-color: #F4B4BB;
   border: 2px solid #F4B4BB;
   display: inline-block;
@@ -526,7 +526,7 @@ body {
 .base--button[type='submit']:focus, .base--button[type='submit']:hover, .base--STYLED button[type='submit']:focus, .base--STYLED button[type='submit']:hover {
   padding: 0.5em 1em;
   color: #F4B4BB;
-  font-weight: bold;
+  /* font-weight: bold; */
   background-color: #F4B4BB;
   border: 2px solid #F4B4BB;
   display: inline-block;
@@ -656,7 +656,7 @@ body {
 }
 
 .base--thead, .base--STYLED thead {
-  font-weight: bold;
+  /* font-weight: bold; */
   color: #fff;
   background-color: #F4B4BB;
 }
@@ -738,7 +738,7 @@ pre[class^="language-"]>code[class^="language-"], pre[class^="language-"]>code[c
 }
 
 .token.important, .token.bold {
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .token.italic {
@@ -777,7 +777,7 @@ pre[class^="language-"]>code[class^="language-"], pre[class^="language-"]>code[c
 .base--small .base--code {
   outline: none;
   font-size: 1em;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .panel {
